@@ -2,27 +2,27 @@ import mongoose from 'mongoose';
 
 const projectsSchema = new mongoose.Schema(
   {
-    Name: {
+    title: {
       type: String,
       required: true
     },
-    SubTitle: {
+    subTitle: {
       type: String,
       required: true
     },
-    Description: {
+    description: {
       type: String,
       required: true
     },
-    ImageUrl: {
+    imageUrl: {
       type: String,
       required: true
     },
-    Link: {
+    appUrl: {
       type: String,
       required: true
     },
-    GitLink: {
+    gitUrl: {
       type: String,
       required: true
     }

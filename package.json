@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettier:fix": "prettier --config .prettierrc 'src/**/*.ts' --write",
     "lint": "eslint . --ext .ts",
-    "start": "npx nodemon"
+    "start": "npx node",
+    "dev": "npx nodemon"
   },
   "keywords": [],
   "author": "",
