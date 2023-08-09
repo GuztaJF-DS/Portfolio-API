@@ -7,7 +7,8 @@ const blogSchema = new mongoose.Schema(
         language: String,
         title: String,
         post: String,
-        date: Date
+        date: Date,
+        locale: String
       }
     ]
   },
